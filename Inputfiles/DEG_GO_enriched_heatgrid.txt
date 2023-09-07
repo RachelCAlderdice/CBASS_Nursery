@@ -1,0 +1,21 @@
+GO.ID	Term	weightFisher	group	comp	colour	type
+GO:0071347	cellular response to interleukin-1	0.000009513	B_21v22	30_21vs30_22		Immunity
+GO:0006879	intracellular iron ion homeostasis	0.00038	B_21v22	30_21vs30_22		Iron
+GO:0009267	cellular response to starvation	0.00042	B_21v22	30_21vs30_22		Stress
+GO:0005747	mitochondrial respiratory chain complex ...	0.00098	B_21v22	30_21vs30_22		Energy
+GO:0008137	NADH dehydrogenase 	0.00015	B_21v22	30_21vs30_22		Energy
+GO:0051087	chaperone binding	0.0004	B_21v22	30_21vs30_22		Stress
+GO:0070301	cellular response to hydrogen peroxide	0.0000791	H_21v22	34_21vs34_22		ROS
+GO:0042744	hydrogen peroxide catabolic process	0.00031	H_21v22	34_21vs34_22		ROS
+GO:0006302	double-strand break repair	0.00072	H_21v22	34_21vs34_22		Stress
+GO:0000302	response to reactive oxygen species	0.00085	H_21v22	34_21vs34_22		ROS
+GO:0071347	cellular response to interleukin-1	0.000032931	BvH_21	30_22vs34_22		Immunity
+GO:1904874	positive regulation of telomerase RNA lo...	0.000002864	BvH_21	30_22vs34_22		Stress
+GO:0009298	GDP-mannose biosynthetic process	0.00027	BvH_21	30_22vs34_22		Energy
+GO:0051092	positive regulation of NF-kappaB transcr...	0.00039	BvH_21	30_22vs34_22		Immunity
+GO:0032212	positive regulation of telomere maintena...	0.00043	BvH_21	30_22vs34_22		Stress
+GO:0044183	protein folding chaperone	0.00018	BvH_21	30_22vs34_22		Stress
+GO:0032735	positive regulation of interleukin-12 pr...	0.00064	BvH_21	30_22vs34_22		Immunity
+GO:0006107	oxaloacetate metabolic process	0.00084	BvH_21	30_22vs34_22		Energy
+GO:0010494	cytoplasmic stress granule	0.00026	BvH_21	30_22vs34_22		Stress
+GO:0010494				30_21vs34_21		
