@@ -1,0 +1,33 @@
+GO.ID	Term	Annotated	Significant	Expected	weightFisher	adjusted.p	q.value	ontology
+GO:0002181	cytoplasmic translation	108	33	15.29	0.0000002	0.0028748	0.0028748	BP
+GO:0006614	SRP-dependent cotranslational protein ta...	58	21	8.21	0.0000015	0.021561	0.0107805	BP
+GO:0010259	multicellular organism aging	277	58	39.21	0.0000113	0.1624262	0.0438407	BP
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	77	24	10.9	0.0000122	0.1753628	0.0438407	BP
+GO:0015833	peptide transport	1152	189	163.07	0.0000675	0.970245	0.14374	BP
+GO:0017148	negative regulation of translation	141	31	19.96	0.0000752	1	0.14374	BP
+GO:0070301	cellular response to hydrogen peroxide	69	17	9.77	0.0000791	1	0.14374	BP
+GO:0044703	multi-organism reproductive process	1261	190	178.5	0.0000816	1	0.14374	BP
+GO:0090314	positive regulation of protein targeting...	22	10	3.11	0.000096	1	0.14374	BP
+GO:0008340	determination of adult lifespan	259	52	36.66	0.0001	1	0.14374	BP
+GO:0044260	cellular macromolecule metabolic process	4075	572	576.84	0.00012	1	0.156807273	BP
+GO:0006413	translational initiation	138	28	19.53	0.00017	1	0.199024615	BP
+GO:0051674	localization of cell	738	121	104.47	0.00018	1	0.199024615	BP
+GO:0042744	hydrogen peroxide catabolic process	13	7	1.84	0.00031	1	0.318281429	BP
+GO:0043410	positive regulation of MAPK cascade	277	47	39.21	0.00046	1	0.440802667	BP
+GO:0006302	double-strand break repair	192	29	27.18	0.00072	1	0.636562857	BP
+GO:0043547	positive regulation of GTPase activity	227	42	32.13	0.00081	1	0.636562857	BP
+GO:2000331	regulation of terminal button organizati...	23	9	3.26	0.00083	1	0.636562857	BP
+GO:0000302	response to reactive oxygen species	183	40	25.9	0.00085	1	0.636562857	BP
+GO:0048803	imaginal disc-derived male genitalia mor...	19	8	2.69	0.00092	1	0.636562857	BP
+GO:0000028	ribosomal small subunit assembly	15	7	2.12	0.00093	1	0.636562857	BP
+GO:0022627	cytosolic small ribosomal subunit	31	16	4.3	0.000000064	0.000107968	0.000107968	CC
+GO:0005737	cytoplasm	6245	877	865.28	0.000000173	0.000291851	0.000145926	CC
+GO:0005622	intracellular anatomical structure	7419	1032	1027.94	0.000002862	0.004828194	0.001609398	CC
+GO:0005829	cytosol	3140	449	435.06	0.000007675	0.012947725	0.003236931	CC
+GO:0043025	neuronal cell body	496	80	68.72	0.0001	0.1687	0.03374	CC
+GO:0005654	nucleoplasm	2263	321	313.55	0.00021	0.35427	0.059045	CC
+GO:0005783	endoplasmic reticulum	1091	177	151.16	0.00036	0.60732	0.08676	CC
+GO:0022625	cytosolic large ribosomal subunit	51	15	7.07	0.00054	0.91098	0.1138725	CC
+GO:0016020	membrane	3419	477	473.72	0.0008	1	0.149955556	CC
+GO:0003735	structural constituent of ribosome	121	32	17.23	0.000011	0.03828	0.03828	MF
+GO:0005515	protein binding	4014	576	571.57	0.000048	0.16704	0.08352	MF

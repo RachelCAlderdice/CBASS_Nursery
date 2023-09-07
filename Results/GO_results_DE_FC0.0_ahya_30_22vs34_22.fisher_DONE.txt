@@ -1,0 +1,42 @@
+GO.ID	Term	Annotated	Significant	Expected	weightFisher	adjusted.p	q.value	ontology
+GO:1904851	positive regulation of establishment of ...	7	6	0.34	0.000000032	0.000459968	0.000459968	BP
+GO:2000112	regulation of cellular macromolecule bio...	1983	137	95.53	0.000000067	0.000963058	0.000481529	BP
+GO:1904874	positive regulation of telomerase RNA lo...	4	4	0.19	0.000002864	0.041167136	0.013722379	BP
+GO:0090666	scaRNA localization to Cajal body	5	4	0.24	0.000013853	0.199123022	0.049780756	BP
+GO:0071347	cellular response to interleukin-1	66	12	3.18	0.000032931	0.473350194	0.094670039	BP
+GO:0045672	positive regulation of osteoclast differ...	26	7	1.25	0.000064515	0.92733861	0.154556435	BP
+GO:0000462	maturation of SSU-rRNA from tricistronic...	38	8	1.83	0.00011	1	0.225877143	BP
+GO:0018279	protein N-linked glycosylation via aspar...	21	6	1.01	0.00015	1	0.2695125	BP
+GO:0044703	multi-organism reproductive process	1261	78	60.75	0.00026	1	0.352816364	BP
+GO:0009298	GDP-mannose biosynthetic process	4	3	0.19	0.00027	1	0.352816364	BP
+GO:0042256	cytosolic ribosome assembly	4	3	0.19	0.00027	1	0.352816364	BP
+GO:0043312	neutrophil degranulation	308	28	14.84	0.0003	1	0.35935	BP
+GO:0014823	response to activity	60	10	2.89	0.00037	1	0.391292222	BP
+GO:0051092	positive regulation of NF-kappaB transcr...	67	10	3.23	0.00039	1	0.391292222	BP
+GO:0032212	positive regulation of telomere maintena...	25	6	1.2	0.00043	1	0.391292222	BP
+GO:0043011	myeloid dendritic cell differentiation	17	5	0.82	0.00048	1	0.391292222	BP
+GO:0051131	chaperone-mediated protein complex assem...	10	4	0.48	0.00049	1	0.391292222	BP
+GO:0042426	choline catabolic process	10	4	0.48	0.00049	1	0.391292222	BP
+GO:0051973	positive regulation of telomerase activi...	26	6	1.25	0.00054	1	0.408524211	BP
+GO:0032735	positive regulation of interleukin-12 pr...	18	5	0.87	0.00064	1	0.459968	BP
+GO:0006458	'de novo' protein folding	38	11	1.83	0.00071	1	0.485978095	BP
+GO:0048661	positive regulation of smooth muscle cel...	77	11	3.71	0.0008	1	0.522690909	BP
+GO:0006107	oxaloacetate metabolic process	19	5	0.92	0.00084	1	0.524963478	BP
+GO:0032040	small-subunit processome	40	12	1.91	0.000000039	0.000065793	6.47E-05	CC
+GO:0005730	nucleolus	697	72	33.31	0.000000079	0.000133273	6.47E-05	CC
+GO:0031428	box C/D RNP complex	5	5	0.24	0.000000115	0.000194005	6.47E-05	CC
+GO:0001650	fibrillar center	91	16	4.35	0.000000761	0.001283807	0.000320952	CC
+GO:0002199	zona pellucida receptor complex	4	4	0.19	0.000002824	0.004764088	0.000952818	CC
+GO:0005832	chaperonin-containing T-complex	8	5	0.38	0.000005811	0.009803157	0.00163386	CC
+GO:0005654	nucleoplasm	2263	126	108.15	0.000013273	0.022391551	0.003198793	CC
+GO:0030687	"preribosome, large subunit precursor"	25	7	1.19	0.00004777	0.08058799	0.010073499	CC
+GO:0034709	methylosome	7	4	0.33	0.000089507	0.150998309	0.01677759	CC
+GO:0010494	cytoplasmic stress granule	32	7	1.53	0.00026	0.43862	0.041408182	CC
+GO:0044297	cell body	549	30	26.24	0.00027	0.45549	0.041408182	CC
+GO:0034455	t-UTP complex	5	3	0.24	0.00065	1	0.091379167	CC
+GO:0030515	snoRNA binding	34	13	1.69	0.000000074	0.00025752	0.00025752	MF
+GO:0051082	unfolded protein binding	94	16	4.68	0.00000193	0.0067164	0.0033582	MF
+GO:0070182	DNA polymerase binding	14	6	0.7	0.000013118	0.04565064	0.01521688	MF
+GO:1904680	peptide transmembrane transporter activi...	29	7	1.44	0.000048082	0.16732536	0.04183134	MF
+GO:0015450	protein-transporting ATPase activity	13	5	0.65	0.00013	0.4524	0.09048	MF
+GO:0044183	protein folding chaperone	21	6	1.05	0.00018	0.6264	0.1044	MF
