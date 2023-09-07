@@ -6,8 +6,8 @@ Data and code for RNASeq analysis and determining ED50 of FvFm over temperature.
 
 ### Workflow
 
-1.	Reference-based RNA-Seq pipeline `RNASeq_RACH.sh`  
-    Using Trimmomatic to trim reads, STAR to align to reference genome  
+1.	Reference-based RNA-Seq pipeline for paired end reads `RNASeq_RACH.sh`  
+    Using Trimmomatic to trim reads, STAR to align reads to reference genome  
   	& StringTie to assembly transcripts & create gene count matrix.
   	
 2.  Gene-level expression overview `Differential_gene_expression.R`  
