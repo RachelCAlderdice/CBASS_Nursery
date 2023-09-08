@@ -22,17 +22,6 @@ message("Number of genes with GO annotation: ", length(geneUniverse))
 
 DE <- read.delim("Results/DE_output_ahya_34_21v34_22_FC0.0_p0.05.txt", sep="\t", header= TRUE) #change DEG list accordingly
 
-results1$gene_names <- row.names(results1)
-DE_genes <- results1$gene_names
-
-keep=DE_genes %in% geneUniverse
-keep=which(keep==TRUE)
-DE_genes=DE_genes[keep]
-#make named vector list of factors showing which are GOI
-geneList=factor(as.integer(geneUniverse %in% DE_genes))
-names(geneList)=geneUniverse
-message("Number of DE genes with GO annotation: ", length(intersect(geneUniverse,DE_genes)))
-
 DE$gene_names <- row.names(DE)
 DE_genes <- DE$gene_names
 
