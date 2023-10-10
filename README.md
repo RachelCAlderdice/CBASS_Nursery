@@ -24,3 +24,4 @@ Data and code for RNASeq analysis and determining ED50 of FvFm over temperature.
 Publication:  
 Raw fastq files available at: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1011835  
 Additional large input files for shell pipeline available at: 
+R version 4.3.0 used in scripts
