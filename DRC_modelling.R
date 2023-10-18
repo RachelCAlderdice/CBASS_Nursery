@@ -129,3 +129,46 @@ ggplot(data=input, aes(x=Source, y=ED50, fill= Source))+
 
 dev.off()
 
+########################### Ranking plot of ED50 ######################################
+
+input <- read.delim("Inputfiles/CBASS_nursery_ahya_ED50_genets_RANKING.txt", sep = "\t", header= TRUE)
+input$Source<- as.factor(input$Source)
+
+ggplot(input, aes(x = Source, y = ED50, group= Colony, fill= Colony, color= Colony)) +
+  geom_smooth(method=lm, se=FALSE) +
+  geom_point(size = 4, shape= 21)+
+  geom_errorbar(aes(ymin = ED50 - SE, ymax = ED50 + SE), width = 0.08) +
+  labs(x = "Source", y = "ED50") +
+  scale_fill_manual(values = c("lightblue", "salmon", "lightgreen", "pink", "orange")) +
+  scale_color_manual(values = c("lightblue", "salmon", "lightgreen", "pink", "orange")) +
+  #theme(axis.text = element_text(size=16))+
+  #theme(axis.title = element_text(size=18))+
+  #theme(text = element_text(size=16))+
+  theme_classic()+
+  theme(axis.text.x = element_text(size = 16), 
+        axis.title.x = element_text(size = 18),
+        axis.text.y = element_text(size = 16),
+        axis.title.y = element_text(size = 18))
+
+ggsave("CBASS_GBRnursery_ED50s_RANKED.pdf", dpi=300,width = 4, height = 6)
+
+############################ Linear regression of ED50 groups ########################
+
+input<- read.delim("Inputfiles/CBASS_nursery_ahya_ED50_genets_linear_regression.txt")
+input$Colony<-as.factor(input$Colony)
+
+ggplot(input, aes(x=ED50_N, y=ED50_D)) + 
+  geom_point(size=5, aes(color= Colony)) +
+  geom_smooth(method=lm, se=FALSE, color = "black") +
+  labs(x = "Nursery ED50", y = "Donor ED50") +
+  scale_color_manual(values = c("lightblue", "salmon", "lightgreen", "pink", "orange")) +
+  theme_classic() +
+  theme(text = element_text(size = 16))
+
+ggsave("CBASS_GBRnursery_ED50s_linear_regression.pdf", dpi=300,width = 8, height = 5)
+
+# Fit the linear regression model
+model <- lm(ED50_N ~ ED50_D, data = input)
+# Obtain the R-squared value
+rsq <- summary(model)$r.squared
+cat("R-squared value:", rsq, "\n")
