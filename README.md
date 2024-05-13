@@ -21,7 +21,10 @@ Data and code for RNASeq analysis and determining ED50 of FvFm over temperature.
 4.  Dose-response curve modelling `DRC_modelling.R`  
     Using DRC R package to model effective dose 50 of FvFm over temperature.
 
-Publication:  
+Publication: 
+Alderdice R, Voolstra CR, Nuñez Lendo CI, Boote C, Suggett DJ, Edmondson J, Goyen S, Haydon T, Camp EF (2024) Loss of coral thermotolerance 
+following year-long in situ nursery propagation with a consecutively high summer heat-load. Coral Reefs. DOI: 10.1007/s00338-024-02505-9
+
 Raw fastq files available at: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1011835  
-Additional large input files for shell pipeline available at: 
+Additional large input files for shell pipeline available at: https://doi.org/10.5281/zenodo.8431668
 R version 4.3.0 used in scripts
