@@ -22,8 +22,9 @@ Data and code for RNASeq analysis and determining ED50 of FvFm over temperature.
     Using DRC R package to model effective dose 50 of FvFm over temperature.
 
 Publication: 
-Alderdice R, Voolstra CR, Lendo CIN, Boote C, Suggett DJ, Edmondson J, et al. Loss of coral thermotolerance following year-long in situ nursery propagation with a consecutively high summer heat-load. Coral Reefs. 2024. doi:10.1007/s00338-024-02505-9 [https://link.springer.com/article/10.1007/s00338-024-02505-9](url)
+Alderdice R, Voolstra CR, Lendo CIN, Boote C, Suggett DJ, Edmondson J, et al. Loss of coral thermotolerance following year-long in situ nursery propagation with a consecutively high summer heat-load. Coral Reefs. 2024. doi:10.1007/s00338-024-02505-9 [link](https://link.springer.com/article/10.1007/s00338-024-02505-9)
 
-Raw fastq files available at: [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1011835](url)  
-Additional large input files for shell pipeline available at: [https://doi.org/10.5281/zenodo.8431668](url)
+Raw fastq files available at: [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1011835](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1011835)  
+Additional large input files for shell pipeline available at: [https://doi.org/10.5281/zenodo.8431668](https://doi.org/10.5281/zenodo.8431668)
+
 R version 4.3.0 used in scripts
